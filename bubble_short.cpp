@@ -9,5 +9,5 @@ void input()
     cout << "masukan panjang array : ";
     cin >> n;
 
-    i
+    if (n <= 20)
 }
