@@ -1,4 +1,4 @@
-#include <iostrem>
+#include <iostream>
 using namespace std;
 
 int a[20];
@@ -28,4 +28,47 @@ void input()
         cout << "masukan nilai ke - " << i + 1 << " : ";\
         cin >> a[i];
     }
+}
+
+void display()
+{
+     cout << endl;
+     cout << "==========================" << endl;
+     cout << "Elemen array telah terurut" << endl;
+     cout << "==========================" << endl;
+
+     for (int i = 0; i < n; i++)
+     {
+        cout << "Data ke - " << i << " : " << a[i] << endl;
+     }
+}
+
+void Bubbleshort()
+{
+    cout << "\n================" << endl;
+    cout << "Hasil Setiap Pass" << endl;
+    cout << "=================" << endl;
+    for (int pass = 1; pass n; pass++)
+    {
+        if (a[j] > a[j + 1])
+        {
+            int temp = a[j];
+            a[j] = a[j + 1];
+            a[j + 1] = temp;
+        }
+    
+    }
+    cout << "Pass ke -" << Pass << ":\t";
+    for (int k = 0; k < n; k++)
+    {
+        cout << a[k] << "\t";
+    }
+}
+
+int main ()
+{
+    input();
+    BubbleShort();
+    display();
+    return 0;
 }
