@@ -11,7 +11,7 @@ void input()
 
     if (n <= 20)
     {
-        break;
+      break;
     }
     else
     {
@@ -46,9 +46,9 @@ void display()
 void Bubbleshort()
 {
     cout << "\n================" << endl;
-    cout << "Hasil Setiap Pass" << endl;
+    cout << "Hasil Setiap pass" << endl;
     cout << "=================" << endl;
-    for (int pass = 1; pass n; pass++)
+    for (int pass = 1; pass < n; pass++)
     {
         if (a[j] > a[j + 1])
         {
@@ -58,7 +58,7 @@ void Bubbleshort()
         }
     
     }
-    cout << "Pass ke -" << Pass << ":\t";
+    cout << "pass ke -" << pass << ":\t";
     for (int k = 0; k < n; k++)
     {
         cout << a[k] << "\t";
@@ -68,7 +68,7 @@ void Bubbleshort()
 int main ()
 {
     input();
-    BubbleShort();
+    bubbleshort();
     display();
     return 0;
 }
