@@ -1,4 +1,5 @@
 #include <iostrem>
 using namespace std;
 
-int a
+int a[20];
+int n;
