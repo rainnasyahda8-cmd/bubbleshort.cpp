@@ -7,4 +7,5 @@ int n;
 void input()
 {
     cout << "masukan panjang array : ";
+    cin 
 }
